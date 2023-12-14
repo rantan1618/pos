@@ -9,7 +9,7 @@ define('APP_ROOT', __DIR__);
 define('APP_SALT', ''); // put 16 to 32 characters here
 define('APP_BUILD', '420.23.031');
 
-openlog('openthc-pos', LOG_ODELAY|LOG_PID, LOG_LOCAL0);
+// openlog('openthc-pos', LOG_ODELAY|LOG_PID, LOG_LOCAL0);
 
 error_reporting(E_ALL & ~ E_NOTICE);
 
